@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import { Header } from './components/Header/Header'
-import './App.css'
 import { Carousel } from './components/Carousel/Carousel'
 import { DishInfo } from './components/DishInfo/DishInfo'
 
