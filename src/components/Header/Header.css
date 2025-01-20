@@ -1,0 +1,55 @@
+/* Navbar elements */
+.nav__logo {
+    align-self: stretch center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav__logo a img {
+    margin-right: 10px;
+  }
+  
+  .nav__logo h1 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: -5px;
+  }
+  
+  .nav__links {
+    align-self: stretch center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -250px;
+  }
+  
+  .nav__links li {
+    margin: 0 30px;
+  }
+  
+  .nav__shopper {
+    position: relative;
+    align-self: stretch flex-end;
+  }
+  
+  .shopper:hover {
+    content: url("../images/svg/shopper_hover.svg");
+  }
+  
+  .nav__shopper__badge {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 80%;
+    background: #ff922c;
+  }
+  
+  nav {
+    background-color: transparent;
+    position: fixed;
+    z-index: 10;
+  }
