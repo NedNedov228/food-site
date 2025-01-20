@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import Logo from "../../images/svg/logo.svg"
 import Shopper from "../../images/svg/shopper.svg"
+import ShopperH from "../images/svg/shopper_hover.svg"
 
 import "./Header.css"
 
